@@ -11,31 +11,66 @@ export const metadata: Metadata = {
 const researchTracks = [
   {
     number: "01",
-    title: "Trogocytosis Library",
+    title: "Development of a Novel Platform for Evaluating T Cell–Mediated Anti-Tumor Immunity and Its Application to Organoid-Based Drug Screening",
     oneLiner:
-      "Building comprehensive repositories of trogocytosis candidates using mass spectrometry, RNA-seq, and CRISPR/Cas9 knockout organoids across normal, adenoma, and carcinoma stages.",
-    keywords: ["Mass Spectrometry", "RNA-seq", "CRISPR/Cas9", "Organoids"],
+      "This study aims to develop a recombinant fluorescent protein–based system that employs a mechanism distinct from conventional T cell activity assays. This system will enable rapid quantitative evaluation of T cell–mediated anti-tumor activity in an organoid co-culture–based drug screening platform. The ultimate goal is to establish a co-culture drug screening system using patient-derived organoids and immune cells, thereby providing a method for assessing T cell activity that recapitulates the patient-specific tumor microenvironment.",
+    keywords: ["Recombinant protein reporter", "T cell cytotoxicity", "Drug screening"],
   },
   {
     number: "02",
-    title: "Trogocytosis Screening System",
+    title: "Trogocytosis-Mediated CAR Transfer Activates CAR Signaling in B-Cell Lymphoma.",
     oneLiner:
-      "Cancer cell–T cell co-culture and in vivo metastatic colon cancer models using patient-derived organoids and reporter mice to evaluate immune evasion.",
-    keywords: ["Co-culture", "In vivo Model", "Reporter Mice", "Metastatic Cancer"],
+      "This study focuses on trogocytosis in CAR-T cell therapy, investigating how CAR molecules are transferred to tumor cells and subsequently activate signaling pathways. It aims to uncover functional changes in tumor cells and identify novel therapeutic targets beyond conventional mechanisms of CAR-T dysfunction.",
+    keywords: ["CAR-T cell therapy", "Trogocytosis", "CAR transfer", "Tumor cell signaling"],
   },
   {
     number: "03",
-    title: "Immunotherapeutic Target Identification",
+    title: "Integrated Computational Analysis and In Vivo Validation of Trogocytosis-Associated Cellular States in Colon Cancer Using CITE-seq data",
     oneLiner:
-      "Identifying actionable immunotherapeutic targets in metastatic cancers by integrating the trogocytosis library with the screening system.",
-    keywords: ["Target Discovery", "Metastatic Cancer", "Immune Evasion", "Biomarkers"],
+      "This study investigates the role of trogocytosis in shaping tumor–immune interactions in colon cancer through integrated single-cell transcriptomic analysis of patient samples. By characterizing trogocytosis-associated cellular states and their molecular signatures at single-cell resolution, we aim to uncover how intercellular membrane transfer influences immune cell identity and function within the tumor microenvironment. Key findings will be validated in mouse in vivo models to establish the functional relevance of trogocytosis in cancer progression and anti-tumor immunity.",
+    keywords: ["Bioinformatics", "Tumor Immunology", "Trogocytosis", "Single-cell Transcriptomics"],
   },
   {
     number: "04",
-    title: "Therapeutic Development",
+    title: "Glucose Metabolism-mediated Anti-cancer Effect of Allulose in Colon Cancer",
     oneLiner:
-      "Developing novel cancer immunotherapies based on validated trogocytosis targets, including mRNA-LNP delivery platforms and in vivo CAR-T cell strategies.",
-    keywords: ["mRNA-LNP", "CAR-T Cells", "Immunotherapy", "Translational Research"],
+      "Allulose, a rare sugar, suppresses the growth of colorectal cancer by inhibiting HIF1α-driven metabolic reprogramming. Treatment with allulose downregulates GLUT1 and key glycolytic genes, disrupting the Warburg effect that cancer cells depend on for survival. These findings suggest allulose as a promising dietary intervention targeting cancer metabolism.",
+    keywords: ["Allulose", "Colorectal Cancer", "Glucose Metabolism", "Warburg Effect"],
+  },
+   {
+    number: "05",
+    title: "Development of Anti-Tumor Immune mRNA-LNP with Adjuvant Function via Lipid Composition Modification",
+    oneLiner:
+      "This Research aims to develop next-generation mRNA-LNP vaccines by modifying lipid composition to endow intrinsic adjuvant properties, building on the success of COVID-19 mRNA vaccines. While current platforms are highly effective against infectious diseases, we focus on enhancing TH1 anti-tumor immunity by promoting CD4+ T cell responses w/ CD8+ T cells through RIPK3 pathway. This approach seeks to expand mRNA vaccine applications into cancer immunotherapy.",
+    keywords: ["mRNA-LNP Vaccine", "Lipid Nanoparticle", "Anti-Tumor Vaccine,", "Gene Therapy"],
+  },
+   {
+    number: "06",
+    title: "Modeling of CRC liver metastasis",
+    oneLiner:
+      "We develop a non-surgical, orthotopic colorectal cancer (CRC) model that enables spontaneous liver metastasis. Using organoid-based transplantation, we track primary tumor growth, circulating tumor cells (CTCs), and metastatic progression. This platform provides a clinically relevant system to study tumor–immune interactions and identify therapeutic targets.",
+    keywords: ["Colorectal Cancer,", "Liver Metastasis", "Surgery free model"],
+  },
+   {
+    number: "07",
+    title: "Reduced CH25H Expression Defines a High Membrane Fluidity, Trogocytosis Active State in Colon Cancer Stem Cells",
+    oneLiner:
+      "My research focuses on cancer stem cells using spheroid models to better capture their functional states. I investigate how these cells interact with immune cells, particularly through trogocytosis-mediated membrane transfer. My work aims to understand the cellular mechanisms underlying these interactions.",
+    keywords: ["Cancer Stem Cells", "Trogocytosis", "Spheroid"],
+  },
+    {
+    number: "08",
+    title: "Investigating the Impact of Environmental Pollutants (PM2.5 and Microplastics) on Immune Cell Senescence and Cancer Progression",
+    oneLiner:
+      "The following research investigates how environmental pollutants — particularly PM2.5 and microplastics — induce T cell immunosenescence and accelerate cancer metastasis. Using in vitro and in vivo models combined with multiomics analysis, I aim to uncover the underlying mechanisms and develop a biodetection and mitigation platform for emerging environmental threats.",
+    keywords: ["Environmental Pollutants", "T Cell Immunosenescence", "Tumor Microenvironment", "PM2.5 & Microplastics"],
+  },
+  {
+    number: "09",
+    title: "Graphene Oxide Based Fluorescence Probe Platform for Detecting Colorectal Cancer Biomarkers",
+    oneLiner:
+      "The following research focuses on developing a blood-based liquid biopsy platform to detect tumor-derived nucleic acid biomarkers associated with colorectal cancer progression, metastasis, and recurrence. The goal of my research is to establish a fluorescence-based system using graphene oxide for the rapid and sensitive detection of colorectal cancer-derived RNA/DNA.",
+    keywords: ["Colorectal cancer", "Graphene Oxide", "Liquid Biopsy", "Fluorescence Biosensor"],
   },
 ]
 
