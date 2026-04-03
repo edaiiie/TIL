@@ -136,7 +136,7 @@ export default function ResearchPage() {
       {/* 4 Research Tracks */}
       <section className="bg-[#f8f9fa] py-24 lg:py-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          <h2 className="text-2xl font-bold text-[#1e3a5f]">Four Investigative Tracks</h2>
+          <h2 className="text-2xl font-bold text-[#1e3a5f]">Research Fields</h2>
           <div className="mt-10 space-y-4">
             {researchTracks.map((track) => (
               <div
