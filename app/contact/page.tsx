@@ -14,8 +14,8 @@ const contactInfo = [
     title: "Address",
     content: (
       <address className="not-italic">
-        연세대학교 국제캠퍼스 진리관 B439/B440<br />
-        인천광역시 연수구 송도과학로 85<br />
+        85 Songdogwahak-ro, Yeonsu-gu, Incheon 21983, Republic of Korea<br />
+        Veritas B (Room 439~440)<br />
         (21983)
       </address>
     ),
