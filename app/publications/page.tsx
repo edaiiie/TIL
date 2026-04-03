@@ -48,7 +48,7 @@ export default async function PublicationsPage() {
               </p>
             </div>
             <a
-              href="https://scholar.google.com/citations?hl=en&user=jaehun-shin"
+              href="https://scholar.google.com/citations?user=3bBYD38AAAAJ&hl=en"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex shrink-0 items-center gap-2 rounded-full bg-[#1e3a5f] px-5 py-2.5 text-sm font-medium text-white transition-all hover:bg-[#2a4a73]"
