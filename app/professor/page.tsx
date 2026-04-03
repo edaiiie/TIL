@@ -103,7 +103,7 @@ export default function ProfessorPage() {
                   jaehun.shin@yonsei.ac.kr
                 </a>
                 <a
-                  href="https://scholar.google.com/citations?user=Jae+Hun+Shin+Yonsei"
+                  href="https://scholar.google.com/citations?user=3bBYD38AAAAJ&hl=en"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white px-5 py-2.5 text-sm font-medium text-[#1e3a5f] shadow-sm transition-all hover:shadow-md"
