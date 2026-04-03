@@ -4,13 +4,9 @@ import { Mail, MapPin, Phone } from "lucide-react"
 
 const quickLinks = [
   { href: "/research", label: "Research" },
-  { href: "/professor", label: "Professor" },
-  { href: "/people", label: "People" },
   { href: "/publications", label: "Publications" },
-  { href: "/gallery", label: "Gallery" },
   { href: "/protocol", label: "Protocol" },
   { href: "/achievement", label: "Achievement" },
-  { href: "/contact", label: "Contact" },
 ]
 
 export function Footer() {
@@ -65,8 +61,8 @@ export function Footer() {
               <li className="flex items-start gap-3 text-sm text-slate-400">
                 <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-sky-500" />
                 <span>
-                  인천광역시 연수구 송도과학로 85<br />
-                  연세대학교 국제캠퍼스 진리관 B439/B440
+                  85 Songdogwahak-ro, Yeonsu-gu, Incheon 21983, Republic of Korea<br />
+                  Veritas B (440)
                 </span>
               </li>
               <li className="flex items-center gap-3 text-sm text-slate-400">
