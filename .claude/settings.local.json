@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:sites.google.com)",
+      "Bash(curl -L -o /Users/jiminlee/Codes/work/yonsei-tumor/public/images/professor-shin.jpg \"https://lh3.googleusercontent.com/sitesv/APaQ0SQZJhrTwqVHd6fwgpp6K0VaAp33TVBRVL0E9cC0ABprhMShGrrMUkNCKY7ro8A-UOSfBJCKjhrqNMz61lpyJVZButSHu_tNHsk2-NtnZZLy2Ta2m_n0041M9hO_hK2Gf6bAZSK9GWJZ7zfQb5TwkNqazH-jxJJF0fzC4hJVc78w-0ByLFEQ9g4YkRQP6dD9xtboCg6eiEnFs_tz1MVztpppokX12fwrEzCc=w1280\")",
+      "Bash(echo \"EXIT:$?\")",
+      "Bash(curl -L -o /Users/jiminlee/Codes/work/yonsei-tumor/public/images/research-diagram.png \"https://lh3.googleusercontent.com/sitesv/APaQ0STYkzi02UJ8LKxmO2EOXx_-p4fKIDPSgjbs5MUy_EUNh6hs0EvU7juCQCyAig4EZs3KY2aNGltkhkpr2CsbQVnLFic6IDcOTyzGdLneotehwZOdQ54ct5BGAR6WrBMZfzMZf_TldXHRLsu_D6wtGRHL_8FDJ_e4BS1LIbK5ThhLPlACPQQj5Kzis1gRKFgxSAKz3lEHLkWzo5d59GZ9wP53KeQ9vRLKBNJ8=w1280\")",
+      "Bash(curl -s -L -A \"Mozilla/5.0 \\(Macintosh; Intel Mac OS X 10_15_7\\) AppleWebKit/537.36 \\(KHTML, like Gecko\\) Chrome/120.0.0.0 Safari/537.36\" -o /Users/jiminlee/Codes/work/yonsei-tumor/public/images/trogocytosis-1.jpg \"https://lh3.googleusercontent.com/sitesv/APaQ0SQXZ05IdypauZtKnhFwmOrDVl6m_a6tfXsMICR9W1uLvBVLH-doSeEmr_TBoByBttTV_Mmunk0pVtmyVFy2hTr2ozomNuxr5glVl38RENbZkFnyiLhhoM-ipPDBlvkAFCNSZcHS2S0X1ZVE10J6z0pOm5viFW4djD20TmuSNjqRq0kZoM2TPeKfllt1-W7b2_ZK1H7A6Qlvz8g03ctyt5fUATGxzb6LCCRguoM=w1280\")",
+      "Bash(curl -s -L -A \"Mozilla/5.0\" -o /Users/jiminlee/Codes/work/yonsei-tumor/public/images/trogocytosis-2.jpg \"https://lh3.googleusercontent.com/sitesv/APaQ0SQevxuuaImNZ1bH24hZUF7-BTtjYqHc4k-WORmkrLF8cittH0IVbE3fT13oBzATkVSOrRl6jwEyKbuR-TLozUCtaq3p2JKpNj8ayzvCSlrlMKsCDszBzZUZXvshSppK0dNu5n93vEfFJC2ua8KaJ1y-28j1LWAZOBljajCkdxIbBktDlE9w6p6erlghyaPkCD-tKOStmXLJcCT6KDCcGHaW-xfEWSMCaDzSwHI=w1280\")",
+      "Bash(curl -s -L -A \"Mozilla/5.0\" -o /Users/jiminlee/Codes/work/yonsei-tumor/public/images/trogocytosis-3.jpg \"https://lh3.googleusercontent.com/sitesv/APaQ0SRPqieCiWY3o0UPH1yxJOAWyUKPamoQ159KDJ0QW3clrPVDhFOJck9BofJGhb_mDo8Kd1O95hDRhz-KAVu5q1Aszj-KUoYKkS7uUESzySC4gEoodkVxmWN3LSQVD-ka5xF6_oxtuyyOb9AP20YKWwEWgdh6pJeQOAhxi1-hIiTjjG66YMW76MD8I-MACOiRfckjgKtPNzu2fA4CDK8UMJOztvh91RWNGInO1n8=w1280\")",
+      "Bash(file /Users/jiminlee/Codes/work/yonsei-tumor/public/images/trogocytosis-*.jpg)",
+      "Bash(curl -s -L -A \"Mozilla/5.0 \\(Macintosh; Intel Mac OS X 10_15_7\\) AppleWebKit/537.36\" -H \"Referer: https://sites.google.com/yonsei.ac.kr/tumorimmunology/professor\" -H \"Accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8\" -o /Users/jiminlee/Codes/work/yonsei-tumor/public/images/professor-shin.jpg \"https://lh3.googleusercontent.com/sitesv/APaQ0SS2M8oBOxG2sm08ojh7rK-mXmbnk85Oi1eDx_FBGMFMp0WPdfAscVotxf9PE9oOkISBH0IIKIr61GkxwE_sioVOdK4_enn5NhQgSLNTktU7vgGHDictizyNPsCP7b_SuZB_vFaFK73vXydEvuSi3jNTayGriC08ijzr5XySbHp9y5D-F41rLW3CEMtzeG__MvXodLuy5ZexqCuOJa0RoJrH0wLebC4fVjgR=w1280\")",
+      "Bash(pnpm build:*)",
+      "Bash(curl -s -L -o /Users/jiminlee/Codes/work/yonsei-tumor/public/images/yonsei-logo.png \"https://www.yonsei.ac.kr/images/logo.png\")",
+      "WebFetch(domain:www.yonsei.ac.kr)"
+    ]
+  }
+}
