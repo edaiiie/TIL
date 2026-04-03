@@ -41,21 +41,21 @@ const researchTracks = [
     number: "05",
     title: "Development of Anti-Tumor Immune mRNA-LNP with Adjuvant Function via Lipid Composition Modification",
     oneLiner:
-      "This Research aims to develop next-generation mRNA-LNP vaccines by modifying lipid composition to endow intrinsic adjuvant properties, building on the success of COVID-19 mRNA vaccines. While current platforms are highly effective against infectious diseases, we focus on enhancing TH1 anti-tumor immunity by promoting CD4+ T cell responses w/ CD8+ T cells through RIPK3 pathway. This approach seeks to expand mRNA vaccine applications into cancer immunotherapy.",
+      "This research aims to develop next-generation mRNA-LNP vaccines by modifying lipid composition to endow intrinsic adjuvant properties, building on the success of COVID-19 mRNA vaccines. While current platforms are highly effective against infectious diseases, we focus on enhancing TH1 anti-tumor immunity by promoting CD4+ T cell responses w/ CD8+ T cells through RIPK3 pathway. This approach seeks to expand mRNA vaccine applications into cancer immunotherapy.",
     keywords: ["mRNA-LNP Vaccine", "Lipid Nanoparticle", "Anti-Tumor Vaccine,", "Gene Therapy"],
   },
    {
     number: "06",
     title: "Modeling of CRC liver metastasis",
     oneLiner:
-      "We develop a non-surgical, orthotopic colorectal cancer (CRC) model that enables spontaneous liver metastasis. Using organoid-based transplantation, we track primary tumor growth, circulating tumor cells (CTCs), and metastatic progression. This platform provides a clinically relevant system to study tumor–immune interactions and identify therapeutic targets.",
+      "In this research, we develop a non-surgical, orthotopic colorectal cancer (CRC) model that enables spontaneous liver metastasis. Using organoid-based transplantation, we track primary tumor growth, circulating tumor cells (CTCs), and metastatic progression. This platform provides a clinically relevant system to study tumor–immune interactions and identify therapeutic targets.",
     keywords: ["Colorectal Cancer,", "Liver Metastasis", "Surgery free model"],
   },
    {
     number: "07",
     title: "Reduced CH25H Expression Defines a High Membrane Fluidity, Trogocytosis Active State in Colon Cancer Stem Cells",
     oneLiner:
-      "My research focuses on cancer stem cells using spheroid models to better capture their functional states. I investigate how these cells interact with immune cells, particularly through trogocytosis-mediated membrane transfer. My work aims to understand the cellular mechanisms underlying these interactions.",
+      "The following research focuses on cancer stem cells using spheroid models to better capture their functional states. I investigate how these cells interact with immune cells, particularly through trogocytosis-mediated membrane transfer. My work aims to understand the cellular mechanisms underlying these interactions.",
     keywords: ["Cancer Stem Cells", "Trogocytosis", "Spheroid"],
   },
     {
