@@ -88,7 +88,7 @@ export function Footer() {
             <Link href="https://www.yonsei.ac.kr" target="_blank" rel="noopener noreferrer" className="text-xs text-slate-500 transition-colors hover:text-sky-400">
               Yonsei University
             </Link>
-            <Link href="https://ised.yonsei.ac.kr" target="_blank" rel="noopener noreferrer" className="text-xs text-slate-500 transition-colors hover:text-sky-400">
+            <Link href="https://ise.yonsei.ac.kr" target="_blank" rel="noopener noreferrer" className="text-xs text-slate-500 transition-colors hover:text-sky-400">
               International Campus
             </Link>
           </div>
