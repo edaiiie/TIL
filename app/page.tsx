@@ -4,7 +4,7 @@ import { ArrowRight, ArrowUpRight, Mail } from "lucide-react"
 
 import { announcements } from "@/data/announcements"
 import { publications } from "@/data/publications"
-import { getPeople, getAnnouncements, getFeaturedPublication } from "@/lib/notion"
+import { getAnnouncements, getFeaturedPublication } from "@/lib/notion"
 
 export const revalidate = 0
 
@@ -13,14 +13,14 @@ export default async function HomePage() {
   let featuredPublication = publications[0]
 
   try {
-    const [notionAnnouncements, notionFeatured, notionPeople] = await Promise.all([
+    const [notionAnnouncements, notionFeatured] = await Promise.all([
       getAnnouncements(3),
       getFeaturedPublication(),
     ])
 
     if (notionAnnouncements.length > 0) recentAnnouncements = notionAnnouncements
     if (notionFeatured) featuredPublication = notionFeatured
-    }
+    
   } catch (e) {
     console.error("[Home] Notion fetch failed:", e)
   }
