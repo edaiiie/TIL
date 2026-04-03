@@ -12,8 +12,6 @@ export const revalidate = 0
 export default async function HomePage() {
   let recentAnnouncements = announcements.slice(0, 3)
   let featuredPublication = publications[0]
-  let professor = currentMembers[0]
-  let teamMembers = currentMembers.slice(1, 5)
 
   try {
     const [notionAnnouncements, notionFeatured, notionPeople] = await Promise.all([
