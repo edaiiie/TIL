@@ -131,11 +131,11 @@ export default function ContactPage() {
                   </li>
                   <li className="flex gap-2">
                     <span className="font-medium text-[#1e3a5f]">Bus:</span>
-                    Routes 순환버스 or Songdo shuttle — Yonsei International Campus stop
+                    Public shuttle or Songdo shuttle — Yonsei International Campus stop
                   </li>
                   <li className="flex gap-2">
                     <span className="font-medium text-[#1e3a5f]">Building:</span>
-                    Veritas B, Room 433
+                    Veritas B (440)
                   </li>
                 </ul>
               </div>
