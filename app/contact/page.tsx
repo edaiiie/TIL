@@ -15,7 +15,7 @@ const contactInfo = [
     content: (
       <address className="not-italic">
         85 Songdogwahak-ro, Yeonsu-gu, Incheon 21983, Republic of Korea<br />
-        Veritas B (Room 439~440)<br />
+        Veritas B (440)<br />
         (21983)
       </address>
     ),
