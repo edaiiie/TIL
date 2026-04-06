@@ -72,6 +72,20 @@ const researchTracks = [
       "The following research focuses on developing a blood-based liquid biopsy platform to detect tumor-derived nucleic acid biomarkers associated with colorectal cancer progression, metastasis, and recurrence. The goal of my research is to establish a fluorescence-based system using graphene oxide for the rapid and sensitive detection of colorectal cancer-derived RNA/DNA.",
     keywords: ["Colorectal cancer", "Graphene Oxide", "Liquid Biopsy", "Fluorescence Biosensor"],
   },
+  {
+    number: "10",
+    title: "CD8⁺ T Cell Exhaustion in Tumor Immunity",
+    oneLiner:
+      "This research investigates CD8⁺ T cell exhaustion in tumor immunity. Using an antigen-driven in vitro model, I examine changes in T cell function and exhaustion-associated phenotypes. This work aims to improve anti-tumor immune responses and advance immunotherapy strategies.",
+    keywords: ["CD8⁺ T cell exhaustion", "Tumor Immununology", "T cell function", "Immunotherapy"],
+  },
+  {
+    number: "11",
+    title: "TBD",
+    oneLiner:
+      "This study investigates how environmentally collected PM2.5 alters T-cell function and promotes senescence associated changes. Using murine splenocyte-based in vitro models, it analyzes functional and senescence related responses to better understand PM2.5 induced T cell immunosenescence.",
+    keywords: ["PM2.5", "T cell", "Immunosenescence"],
+  },
 ]
 
 export default function ResearchPage() {
