@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     default: 'Tumor Immunology Lab | Yonsei University',
     template: '%s | Tumor Immunology Lab',
   },
-  description: 'Research lab focused on tumor immunology and cancer immunotherapy at Yonsei University College of Medicine.',
+  description: 'Research lab focused on tumor immunology and cancer immunotherapy at Yonsei University Department of Integrated Science and Engineering.',
   icons: {
     icon: '/images/yonsei-logo.png',
     apple: '/images/yonsei-logo.png',
