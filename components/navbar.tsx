@@ -73,10 +73,10 @@ export function Navbar() {
       </nav>
 
       {/* Mobile Navigation */}
-      <div 
+      <div
         className={cn(
-          "overflow-hidden transition-all duration-300 xl:hidden",
-          mobileMenuOpen ? "max-h-96 border-t border-slate-200 bg-white" : "max-h-0"
+          "transition-all duration-300 xl:hidden",
+          mobileMenuOpen ? "max-h-[70vh] overflow-y-auto border-t border-slate-200 bg-white" : "max-h-0 overflow-hidden"
         )}
       >
         <ul className="space-y-1 px-6 py-4">
