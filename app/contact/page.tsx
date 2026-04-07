@@ -37,7 +37,7 @@ const contactInfo = [
   {
     icon: Phone,
     title: "Phone",
-    content: <p className="font-medium text-[#1e3a5f]">+82-32-749-3020</p>,
+    content: <p className="font-medium text-[#1e3a5f]">+82-32-749-3720</p>,
   },
   {
     icon: Clock,
