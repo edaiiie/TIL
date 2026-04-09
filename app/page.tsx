@@ -75,7 +75,7 @@ export default async function HomePage() {
           <div className="relative">
             <div className="relative aspect-[4/3] min-h-[300px] overflow-hidden rounded-2xl shadow-2xl lg:aspect-square">
               <Image
-                src="/images/IMG_5687.png"
+                src="/images/TIL_homepage_photo.jpg"
                 alt="Tumor Immunology Lab"
                 fill
                 priority
