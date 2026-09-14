@@ -86,11 +86,10 @@ export default function ProfessorPage() {
               </h1>
               <p className="mt-2 text-xl text-[#555]">Ph.D.</p>
               <p className="text-lg text-[#888]">
-                Associate Professor, Bio-Convergence
-                <br />
-                Integrated Science &amp; Engineering Division, Yonsei University
+                Director, Integrated Science &amp; Engineering Division, Yonsei University
               </p>
               <p className="mt-1 text-base text-[#aaa]">
+                Associate Professor, Bio-Convergence, Yonsei University
                 Assistant Professor Adjunct, Internal Medicine (Endocrinology), Yale University
               </p>
 
