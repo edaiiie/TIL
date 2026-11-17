@@ -199,7 +199,7 @@ export default async function HomePage() {
         {/* Decorative elements */}
         <div className="absolute -left-20 -top-20 h-64 w-64 rounded-full bg-white/5 blur-3xl" />
         <div className="absolute -bottom-20 -right-20 h-64 w-64 rounded-full bg-white/5 blur-3xl" />
-        {/*
+    {/*
         <div className="relative mx-auto max-w-7xl px-6 lg:px-8">
           <div className="flex flex-col items-center justify-between gap-8 text-center sm:flex-row sm:text-left">
             <div>
@@ -221,6 +221,5 @@ export default async function HomePage() {
         </div>
         </section>
         </div>
-        */}
+    */}
   )
-}
