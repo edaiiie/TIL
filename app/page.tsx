@@ -199,27 +199,24 @@ export default async function HomePage() {
         {/* Decorative elements */}
         <div className="absolute -left-20 -top-20 h-64 w-64 rounded-full bg-white/5 blur-3xl" />
         <div className="absolute -bottom-20 -right-20 h-64 w-64 rounded-full bg-white/5 blur-3xl" />
-    {/*
-        <div className="relative mx-auto max-w-7xl px-6 lg:px-8">
-          <div className="flex flex-col items-center justify-between gap-8 text-center sm:flex-row sm:text-left">
-            <div>
-              <h2 className="text-2xl font-bold text-white sm:text-3xl">
-                Interested in joining our team?
-              </h2>
-              <p className="mt-2 max-w-lg text-white/70">
-                We are always looking for talented and motivated researchers passionate about cancer immunology.
-              </p>
-            </div>
-            <Link
-              href="/contact"
-              className="inline-flex shrink-0 items-center gap-2 rounded-full bg-white px-8 py-4 text-sm font-semibold text-[#1e3a5f] shadow-lg transition-all hover:bg-slate-100 hover:shadow-xl"
-            >
-              Contact Us
-              <ArrowRight className="h-4 w-4" />
-            </Link>
+      {/*
+      <div className="relative mx-auto max-w-7xl px-6 lg:px-8">
+        <div className="flex flex-col items-center justify-between gap-8 text-center sm:flex-row sm:text-left">
+          <div>
+            <h2 className="text-2xl font-bold text-white sm:text-3xl">
+              Interested in joining our team?
+            </h2>
+            <p className="mt-2 max-w-lg text-white/70">
+              We are always looking for talented and motivated researchers passionate about cancer immunology.
+            </p>
           </div>
+          <Link href="/contact">
+            Contact Us
+            <ArrowRight className="h-4 w-4" />
+          </Link>
         </div>
-        </section>
-        </div>
-    */}
-  )
+      </div>
+      */}
+    </section>
+  </div>
+);
