@@ -1,33 +1,36 @@
+
 import type { Metadata } from "next"
 import Link from "next/link"
 import { ChevronRight } from "lucide-react"
+import { notFound } from "next/navigation"
 import { protocols } from "@/data/protocol"
 import { getProtocols } from "@/lib/notion"
 
 export const revalidate = 0
 
+// Set to true when you want to make the page accessible again.
+const PROTOCOL_PAGE_ENABLED = false
+
 export const metadata: Metadata = {
   title: "Protocol",
-  description: "Laboratory protocols and experimental procedures from the Tumor Immunology Lab.",
+  description:
+    "Laboratory protocols and experimental procedures from the Tumor Immunology Lab.",
 }
 
 export default async function ProtocolPage() {
-  return null
+  // Temporarily disable the entire Protocol page.
+  if (!PROTOCOL_PAGE_ENABLED) {
+    notFound()
+  }
 
-  /*
   let items = protocols
+
   try {
     const notionItems = await getProtocols()
     if (notionItems.length > 0) items = notionItems
   } catch (e) {
     console.error("[Protocol] Notion fetch failed:", e)
   }
-
-  return (
-    // Your existing JSX code
-  )
-  */
-}
 
   return (
     <div className="pt-20">
@@ -41,7 +44,9 @@ export default async function ProtocolPage() {
         />
         <div className="relative mx-auto max-w-7xl px-6 lg:px-8">
           <div className="max-w-3xl">
-            <p className="text-sm font-semibold uppercase tracking-widest text-[#1e3a5f]">Lab Manual</p>
+            <p className="text-sm font-semibold uppercase tracking-widest text-[#1e3a5f]">
+              Lab Manual
+            </p>
             <h1 className="mt-4 text-4xl font-bold tracking-tight text-[#1e3a5f] sm:text-5xl">
               Protocol
             </h1>
@@ -71,7 +76,9 @@ export default async function ProtocolPage() {
                   <h2 className="mt-3 text-xl font-semibold text-[#1e3a5f] transition-colors group-hover:text-[#2a4a73]">
                     {protocol.title}
                   </h2>
-                  <p className="mt-2 text-[#555]">{protocol.excerpt}</p>
+                  <p className="mt-2 text-[#555]">
+                    {protocol.excerpt}
+                  </p>
                 </div>
                 <ChevronRight className="ml-6 h-5 w-5 shrink-0 text-[#1e3a5f]/40 transition-transform group-hover:translate-x-1 group-hover:text-[#1e3a5f]" />
               </Link>
