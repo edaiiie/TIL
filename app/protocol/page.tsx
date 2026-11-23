@@ -12,6 +12,9 @@ export const metadata: Metadata = {
 }
 
 export default async function ProtocolPage() {
+  return null
+
+  /*
   let items = protocols
   try {
     const notionItems = await getProtocols()
@@ -19,6 +22,12 @@ export default async function ProtocolPage() {
   } catch (e) {
     console.error("[Protocol] Notion fetch failed:", e)
   }
+
+  return (
+    // Your existing JSX code
+  )
+  */
+}
 
   return (
     <div className="pt-20">
